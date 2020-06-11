@@ -64,7 +64,7 @@
     flex-direction:row;
   }
 
-  @media screen and (max-width: 2000px){
+  @media screen and (max-width: 500px){
     .container.space{
       justify-content: space-evenly;
       flex-direction:column;
@@ -90,7 +90,7 @@
 
     .h3{
       font-family: 'Montserrat', sans-serif;
-      font-size: 80pt;
+      font-size: 60pt;
       text-align: center;
       font-weight:400;
       color: var(--blue1);
