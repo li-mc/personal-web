@@ -24,7 +24,7 @@
 
   .h3{
     font-family: 'Montserrat', sans-serif;
-    font-size: 22pt;
+    font-size: 36pt;
     text-align: center;
     font-weight:400;
     color: var(--blue1);
@@ -32,29 +32,43 @@
 
   }
 
-  .h2:link, .h3:link{
+  .h1:link, .h2:link, .h3:link{
     color: var(--blue1);
+    text-decoration:none;
   }
 
-  .h2:visited, .h3:visited{
+  .h1:visited, .h2:visited, .h3:visited{
     color: var(--blue1);
-  }
-  
-
-  .h2:hover, .h3:hover{
-    color: var(--pink1);
+    text-decoration:none;
   }
 
-  .h2:active, .h3:active{
+
+  .h1:hover, .h2:hover, .h3:hover{
     color: var(--pink2);
+    cursor:crosshair;
+    text-decoration:none;
+
   }
 
+  .h1:active, .h2:active, .h3:active{
+    color: var(--pink1);
+    text-decoration:none;
+  }
 
 
   .container{
     display: flex;
   }
 
-  .container.space-between{
+  .container.space{
     justify-content: space-evenly;
+    
+  }
+
+  @media only screen and (max-width: 768 px){
+    .container.space{
+      justify-content: space-evenly;
+      flex-direction:column;
+    }
+
   }
