@@ -62,10 +62,10 @@
 
   .container.space{
     justify-content: space-evenly;
-    
+    flex-direction:row;
   }
 
-  @media only screen and (max-width: 768 px){
+  @media screen and (max-width: 800px){
     .container.space{
       justify-content: space-evenly;
       flex-direction:column;
