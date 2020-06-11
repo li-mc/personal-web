@@ -56,6 +56,11 @@
 
   .container{
     display: flex;
+    width:90%;
+    padding-left:5%;
+
+    text-align:center;
+
   }
 
   .container.space{
@@ -64,7 +69,8 @@
   }
 
   #imgtab{
-    width:100%;
+    width:90%;
+    padding-left:10%;
     font-weight:100;
     font-family: 'Roboto', sans-serif;
     font-size: 10pt;
