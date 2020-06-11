@@ -13,7 +13,6 @@
     padding: 20px 20px 20px 20px;
   }
 
-
   .h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 14pt;
@@ -64,6 +63,23 @@
     flex-direction:row;
   }
 
+  #imgtab{
+    width:100%;
+    font-weight:100;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10pt;
+    text-align:center;
+
+  }
+
+
+
+  #imgtab img{
+    display:block;
+    width:100%;
+    height:auto;
+  }
+
   @media screen and (max-width: 500px){
     .container.space{
       justify-content: space-evenly;
@@ -74,7 +90,7 @@
       font-weight:100;
       color: var(--blue2);
       font-family: 'Montserrat', sans-serif;
-      font-size:60pt;
+      font-size:40pt;
       text-align: center;
       padding: 5px 5px 5px 5px;
     }
@@ -96,5 +112,7 @@
       color: var(--blue1);
       padding: 5px 5px 5px 5px;
     }
+
+
 
   }
