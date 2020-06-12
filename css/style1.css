@@ -4,6 +4,11 @@
       --pink2: rgb(255 215 200);
   }
 
+  .bodytxt{
+    font-weight:100;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
+  }
 
   .h1{
     font-weight:100;

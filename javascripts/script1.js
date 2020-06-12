@@ -11,12 +11,13 @@ $(document).ready(function(){
   $(".catbtn").click(function(){
      fileName = randImg();
 
+    $(".secretimg").hide();
     $(".secretimg").attr("src", fileName);
     $(".secretimg").css("top", (Math.random() * 100) + "%");
     $(".secretimg").css("left", (Math.random() * 100) + "%");
-
     $(".secretimg").show();
 
   });
+  
 
 });
