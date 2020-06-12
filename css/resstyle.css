@@ -28,13 +28,12 @@
   text-align:right;
 }
 
-
-
 ul{
   list-style:none;
   list-style-position:outside;
   padding: 5px 5px 5px 5px;
 }
+
 ul li{
   margin: 1em 0;
 }
