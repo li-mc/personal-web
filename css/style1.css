@@ -103,7 +103,9 @@
 
   }
 
+  .img_wrap{
 
+  }
   .img_wrap:hover .img_desc{
     visibility:visible;
     opacity:1;
@@ -124,6 +126,7 @@
   }
 
 
+
   .secretimg{
     display:none;
     width:20%;
@@ -136,6 +139,20 @@
     .container.space{
       justify-content: space-evenly;
       flex-direction:column;
+    }
+
+    .img_desc{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 8pt;
+      text-align: center;
+      font-weight:100;
+      color: white;
+      padding-left:50px;
+      position:absolute;
+      visibility:hidden;
+      opacity:0;
+      transition: opacity .2s, visibility .2s;
+
     }
 
     .container.stick{

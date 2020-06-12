@@ -18,6 +18,16 @@ $(document).ready(function(){
     $(".secretimg").show();
 
   });
-  
+
+  $(".res_table > tbody > tr > td").hover(function(){
+    $(this).css("background","var(--pink2)");
+  },
+
+function(){
+ $(this).css("background", "");
+
+}
+);
+
 
 });
