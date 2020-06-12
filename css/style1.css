@@ -4,6 +4,7 @@
       --pink2: rgb(255 215 200);
   }
 
+
   .h1{
     font-weight:100;
     color: var(--blue2);
@@ -58,7 +59,6 @@
     display: flex;
     width:90%;
     padding-left:5%;
-
     text-align:center;
 
   }
@@ -68,6 +68,16 @@
     flex-direction:row;
   }
 
+  .container.stick{
+    background-color:white;
+    justify-content: space-evenly;
+    flex-direction:row;
+    position: -webkit-sticky;
+    position:sticky;
+    top:0;
+
+  }
+
   #imgtab{
     width:90%;
     padding-left:10%;
@@ -75,15 +85,16 @@
     font-family: 'Roboto', sans-serif;
     font-size: 10pt;
     text-align:center;
-
   }
-
-
 
   #imgtab img{
     display:block;
     width:100%;
     height:auto;
+  }
+
+  .secretimg{
+    display:none;
   }
 
   @media screen and (max-width: 500px){
@@ -118,6 +129,8 @@
       color: var(--blue1);
       padding: 5px 5px 5px 5px;
     }
+
+
 
 
 

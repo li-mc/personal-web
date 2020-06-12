@@ -1,8 +1,6 @@
-document.addEventListener("DOMContentLoaded",
-function(event){
-  document.getElementById("div2").textContent = "Document DOMCcontentLoaded event happened";
-});
+$(document).ready(function(){
+	$(".catbtn").click(function(){
+   	$(".secretimg").show();
+	});
 
-window.onload = function(){
-  document.getElementById("div1").textContent = "Window.onload event happened";
-}
+});
