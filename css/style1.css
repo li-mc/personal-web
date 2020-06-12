@@ -95,6 +95,10 @@
 
   .secretimg{
     display:none;
+    width:20%;
+    height:auto;
+    position:fixed;
+    pointer-events: none;
   }
 
   @media screen and (max-width: 500px){
