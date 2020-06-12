@@ -12,8 +12,8 @@ $(document).ready(function(){
      fileName = randImg();
 
     $(".secretimg").attr("src", fileName);
-    $(".secretimg").css("top", (Math.random() * 200) + "px");
-    $(".secretimg").css("left", (Math.random() * 800) + "px");
+    $(".secretimg").css("top", (Math.random() * 100) + "%");
+    $(".secretimg").css("left", (Math.random() * 100) + "%");
 
     $(".secretimg").show();
 

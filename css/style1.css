@@ -107,6 +107,16 @@
       flex-direction:column;
     }
 
+    .container.stick{
+      background-color:white;
+      justify-content: space-evenly;
+      flex-direction:column;
+      position: -webkit-sticky;
+      position:sticky;
+      top:0;
+
+    }
+
     .h1{
       font-weight:100;
       color: var(--blue2);
@@ -115,7 +125,6 @@
       text-align: center;
       padding: 5px 5px 5px 5px;
     }
-
 
     .h2{
       font-family: 'Montserrat', sans-serif;
