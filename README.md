@@ -1,2 +1,12 @@
 
-This is a resume/portfolio webpage.
+This is a resume/portfolio webpage. <br>
+Visit [here](li-mc.github.io)
+
+#### Features
+* Resizes based on window/mobile.
+* Position-locked navigation bar.
+* Resume.
+* Photography.
+* LinkedIn.
+* A cat picture generator.
+
