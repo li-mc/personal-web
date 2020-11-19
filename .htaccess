@@ -1,7 +1,6 @@
-RewriteEngine Oni
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.php [NC,L]
+RewriteEngine On
 DirectoryIndex home.html
 RewriteBase /
 RewriteRule ^index\.html?$ / [NC,R,L]
-
+RewriteRule ^home\.html?$ / [NC,R,L]
+RewriteCond %{REQUEST_FILENAME} !-f
